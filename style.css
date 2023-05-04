@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%)
+}
+
+.Cabeçalho {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 24px;
+}
+
+.foto da ballerine {
+    height: 72px;
+}
+
+.opções {
+    display: flex;
+    gap: 32px;
+}
+
+.primeira {
+    font-family: 'Sarala', sans-serif;
+    color:#FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.Segunda {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.Terceira {
+    font-family: 'Sarala';
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.quarta {
+    font-family: 'Sarala';
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.Primeira-parte-do-centro {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+
+}
+
+.Conteudo-da-Primeira-parte {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Conteudo-da-primeira-parte-escrita {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.Primeiro-titulo {
+    font-family: Righteous;
+    color: #FFF2E7;
+    font-size: 64px;
+    font-weight: 308px;
+}
+
+.Segundo-titulo {
+    font-family: 'Sarala';
+    color: #ECD6C4;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.Acionamento {
+    background-color: #ECD6C4;
+    width: 185px;
+    height: 67px;
+    left: 369px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #2F2325;
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.Acionamento:hover {
+    background-color: purple;
+}
+
+.Foto-balle-bot {
+    height: 430px;
+}
+
+.Segunda-parte-do-centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.titulo-do-centro {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: "Righteous";
+    color: #FFF2E7;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.primeira-resposta {
+    font-family: 'Sarala';
+    color: #ECD6C4;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.segunda-resposta {
+    font-family: 'Sarala';
+    color: #FFF2E7;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.terceira-resposta {
+    font-family: 'Sarala';
+    color: #FFF2E7;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.rodape {
+    padding: 38px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.foto-do-rodape {
+    height: 38px;
+    display: block;
+    margin: 0 auto;
+}
